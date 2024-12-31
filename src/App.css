@@ -591,3 +591,14 @@ body.light-mode .section a[href="mailto:kumardarun11@gmail.com"]:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 30px rgba(238, 29, 6, 0.3); /* Soft glowing red for project hover */
 }
+
+/* Text Selection Style */
+::selection {
+  background-color: #ff008c; /* Vibrant pink for selection background */
+  color: #ffffff; /* White text for selection */
+}
+
+body.light-mode ::selection {
+  background-color: #ff5822; /* Bright orange for light mode selection */
+  color: #ffffff; /* White text for light mode selection */
+}
