@@ -171,7 +171,6 @@ a:hover {
 
 /* Projects Section */
 .project-grid {
-<<<<<<< HEAD
   display: flex;
   flex-direction: column; /* Ensures projects are stacked vertically */
   gap: 1.5rem;
@@ -182,23 +181,6 @@ a:hover {
 .project-card {
   width: 100%;
   max-width: 600px; /* Limits width for better readability */
-=======
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-.project-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #00ffc6;
-}
-.project-card strong {
-  color: #ff008c;
-  font-weight: 600;
-}
-.project-card {
->>>>>>> main
   background: #1f1f1f;
   padding: 1.8rem;
   border-radius: 10px;
@@ -259,6 +241,7 @@ a:hover {
     font-size: 0.9rem; /* Adjust text size for readability */
   }
 }
+
 /* Contact Section */
 .contact-links a {
   display: inline-block;
