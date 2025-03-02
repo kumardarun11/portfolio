@@ -171,6 +171,18 @@ a:hover {
 
 /* Projects Section */
 .project-grid {
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: column; /* Ensures projects are stacked vertically */
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center; /* Centers the projects */
+}
+
+.project-card {
+  width: 100%;
+  max-width: 600px; /* Limits width for better readability */
+=======
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
@@ -186,6 +198,7 @@ a:hover {
   font-weight: 600;
 }
 .project-card {
+>>>>>>> main
   background: #1f1f1f;
   padding: 1.8rem;
   border-radius: 10px;
@@ -199,12 +212,53 @@ a:hover {
   box-shadow: 0 8px 30px rgba(0, 255, 198, 0.4);
 }
 
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #00ffc6;
+}
+
+.project-card strong {
+  color: #ff008c;
+  font-weight: 600;
+}
+
+.project-card p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
 .project-card i {
   font-size: 2rem;
   color: #00ffc6;
   margin-bottom: 1rem;
 }
+/* Responsive Project Grid */
+@media (max-width: 1024px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 1rem; /* Reduce gap between cards */
+  }
 
+  .project-card {
+    max-width: 100%; /* Allow it to fill the grid column */
+    padding: 1.2rem; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    gap: 0.8rem;
+  }
+
+  .project-card {
+    max-width: 90%; /* Make it slightly smaller for better spacing */
+    padding: 1rem;
+    font-size: 0.9rem; /* Adjust text size for readability */
+  }
+}
 /* Contact Section */
 .contact-links a {
   display: inline-block;
