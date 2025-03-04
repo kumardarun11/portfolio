@@ -692,7 +692,7 @@ body.light-mode ::selection {
 
 .light-mode .internship-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 30px rgba(52, 152, 219, 0.4);
+  box-shadow: 0 8px 30px rgba(231, 76, 60, 0.3);
 }
 
 /* Responsive Design */
