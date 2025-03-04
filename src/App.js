@@ -58,6 +58,7 @@ function App() {
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#hackathon">Hackathon</a></li>
+                    <li><a href="#internship">Internships</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </header>
