@@ -140,13 +140,29 @@ function App() {
                         <div className="skill-item">
                             <i className="fas fa-database"></i>
                             <h3>Databases & OS</h3>
-                            <p>MySQL, Linux</p>
+                            <p>MySQL, SQL</p>
                         </div>
+                        <div className="skill-item">
+                            <i className="fas fa-tools"></i>
+                            <h3>IDEs & Tools</h3>
+                            <p>VS Code, Jupyter Lab, Excel, Power BI</p>
+                        </div>
+                        <div className="skill-item">
+                            <i className="fas fa-desktop"></i>
+                            <h3>Operating Systems</h3>
+                            <p>Windows, Linux</p>
+                        </div>
+
                         <div className="skill-item">
                             <i className="fas fa-cogs"></i>
                             <h3>Concepts</h3>
                             <p>Data Structures & Algorithms</p>
                             <p>Object Oriented Programming</p>
+                        </div>
+                        <div className="skill-item">
+                            <i className="fas fa-user-check"></i>
+                            <h3>Soft Skills</h3>
+                            <p>Problem Solving, Analytical Thinking, Team Collaboration, Time Management</p>
                         </div>
                     </div>
                 </section>
