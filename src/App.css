@@ -639,3 +639,88 @@ body.light-mode ::selection {
   background-color: #ff5822; /* Bright orange for light mode selection */
   color: #ffffff; /* White text for light mode selection */
 }
+
+/* Virtual Internships Section */
+.internship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.internship-item {
+  background: #1f1f1f;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 25px rgba(0, 255, 198, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.internship-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 255, 198, 0.4);
+}
+
+.internship-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #00ffc6;
+}
+
+.internship-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ff008c;
+}
+
+/* Light Mode */
+.light-mode .internship-item {
+  background: #f0f0f0;
+  color: #2c3e50;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .internship-item h3 {
+  color: #ff9800;
+  text-shadow: 0 0 6px rgba(255, 152, 0, 0.3);
+}
+
+.light-mode .internship-item p {
+  color: #34495e;
+}
+
+.light-mode .internship-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(52, 152, 219, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .internship-grid {
+    grid-template-columns: 1fr;
+  }
+  .internship-item {
+    padding: 1.5rem;
+  }
+  .internship-item h3 {
+    font-size: 1.1rem;
+  }
+  .internship-item p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Smaller Phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .internship-item {
+    padding: 1.2rem;
+  }
+  .internship-item h3 {
+    font-size: 1rem;
+  }
+  .internship-item p {
+    font-size: 0.9rem;
+  }
+}
+

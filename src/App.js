@@ -218,6 +218,24 @@ function App() {
                     </div>
                 </section>
 
+                <section id="internship" className="section">
+                    <h1>Virtual Internships</h1>
+                    <div className="internship-grid">
+                        <div className="internship-item">
+                            <h3>Google Android Developer Virtual Internship</h3>
+                            <p>Completed hands-on projects related to Android development, app UI/UX design, and Firebase integration.</p>
+                        </div>
+                        <div className="internship-item">
+                            <h3>Palo Alto Cybersecurity Virtual Internship</h3>
+                            <p>Gained insights into network security, threat detection, and cybersecurity best practices.</p>
+                        </div>
+                        <div className="internship-item">
+                            <h3>Google AI-ML Virtual Internship</h3>
+                            <p>Worked on AI/ML models, data preprocessing, and predictive analytics using TensorFlow and Python.</p>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="contact" className="section">
                     <h1>Contact</h1>
                     <p><strong>Address:</strong> 289/263 Bhiringi School Para, Durgapur, West Bengal, 713213</p>
