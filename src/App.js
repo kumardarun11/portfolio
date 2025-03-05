@@ -265,6 +265,9 @@ function App() {
                         <a href="https://www.linkedin.com/in/kumardarun11" target="_blank" rel="noreferrer">
                             <i className="fab fa-linkedin"></i> LinkedIn
                         </a>
+                        <a href="/resume.pdf" download className="resume-button">
+                            <i className="fas fa-download"></i> Resume
+                        </a>
                     </div>
                 </section>
             </main>
