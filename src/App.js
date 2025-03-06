@@ -59,6 +59,7 @@ function App() {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#hackathon">Hackathon</a></li>
                     <li><a href="#internship">Internships</a></li>
+                    <li><a href="#certification">Certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </header>
@@ -249,6 +250,28 @@ function App() {
                         <div className="internship-item">
                             <h3>Google AI-ML Virtual Internship</h3>
                             <p>Worked on AI/ML models, data preprocessing, and predictive analytics using TensorFlow and Python.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="certification" className="section">
+                    <h1>Certifications</h1>
+                    <div className="certification-grid">
+                        <div className="certification-item">
+                            <h3>AWS Academy Graduate - AWS Academy Cloud Foundations</h3>
+                            <p>Fundamentals of cloud computing with AWS services and best practices.</p>
+                        </div>
+                        <div className="certification-item">
+                            <h3>IBM SkillsBuild - Getting Started with Artificial Intelligence</h3>
+                            <p>Introduction to AI concepts, machine learning, and applications.</p>
+                        </div>
+                        <div className="certification-item">
+                            <h3>HackerRank – Frontend (React) Developer</h3>
+                            <p>Demonstrated proficiency in React development and frontend skills.</p>
+                        </div>
+                        <div className="certification-item">
+                            <h3>HackerRank – SQL (Intermediate)</h3>
+                            <p>Hands-on experience with SQL queries, database management, and optimization.</p>
                         </div>
                     </div>
                 </section>
