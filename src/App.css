@@ -298,6 +298,7 @@ a:hover {
 }
 
 /* Footer */
+/* Footer Styles */
 .footer {
   text-align: center;
   padding: 1.5rem 0;
@@ -305,7 +306,45 @@ a:hover {
   font-size: 0.9rem;
   margin-top: 2rem;
   border-top: 1px solid #1f1f1f;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  color: #00ffc6;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #00ffc6;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  color: #ff008c;
+}
+
+.footer-bottom {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #b3b3b3;
+}
+
 
 /* Animations */
 @keyframes fadeIn {
@@ -593,12 +632,27 @@ body.light-mode .section a[href="mailto:kumardarun11@gmail.com"]:hover {
   color: #ffffff;
 }
 
-/* Footer */
+/* Light Mode Footer */
 .light-mode .footer {
   background-color: #f0f0f0;
-  color: #666666; /* Medium gray for footer text */
+  color: #666666;
   border-top: 1px solid #e0e0e0;
-  text-shadow: 0 0 4px rgba(102, 102, 102, 0.2); /* Very subtle footer glow */
+}
+
+.light-mode .footer-section h3 {
+  color: #ff5822;
+}
+
+.light-mode .footer .social-icons a {
+  color: #ff5822;
+}
+
+.light-mode .footer .social-icons a:hover {
+  color: #2c3e50;
+}
+
+.light-mode .footer-bottom {
+  color: #444444;
 }
 
 /* Education Section */
