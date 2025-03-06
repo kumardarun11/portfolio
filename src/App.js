@@ -296,7 +296,25 @@ function App() {
             </main>
 
             <footer className="footer">
-                <p>&copy; 2024 D Arun Kumar. All Rights Reserved.</p>
+                <div className="footer-container">
+                    <div className="footer-section">
+                        <h3>Follow Me</h3>
+                        <div className="social-icons">
+                            <a href="https://github.com/kumardarun11" target="_blank" rel="noreferrer">
+                            <i className="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kumardarun11" target="_blank" rel="noreferrer">
+                            <i className="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://x.com/kumardarun11" target="_blank" rel="noreferrer">
+                            <i className="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="footer-bottom">
+                    <p>&copy; 2024 D Arun Kumar | Designed & built with ❤️ & React</p>
+                </div>
             </footer>
         </div>
     );
