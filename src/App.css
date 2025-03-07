@@ -579,7 +579,7 @@ body.light-mode .hero-link:hover {
 }
 
 .light-mode .skills-grid .skill-item p {
-  color: #607d8b; /* Cool gray for skill descriptions */
+  color: #608d8b; /* Cool gray for skill descriptions */
 }
 
 .light-mode .skills-grid .skill-item:hover {
@@ -587,11 +587,8 @@ body.light-mode .hero-link:hover {
   box-shadow: 0 8px 30px rgba(52, 152, 219, 0.4); /* Glowing blue for skills hover */
 }
 
-.light-mode i{
-  color: #ff5822; /* Bright orange for all icons in light mode*/
-}
-.light-mode i:hover{
-  color: #2c3e50; /* hover for all icons in light mode */
+.light-mode .skill-item i{
+  color: #ff5822; /* Bright orange for skills icons in light mode*/
 }
 
 /* Projects Section */
@@ -641,7 +638,12 @@ body.light-mode .section a[href="mailto:kumardarun11@gmail.com"]:hover {
   color: #666666;
   border-top: 1px solid #e0e0e0;
 }
-
+.light-mode .footer i{
+  color: #ff5822; /* Bright orange for footer icons in light mode*/
+}
+.light-mode .footer i:hover{
+  color: #2c3e50; /* hover for all footer icons in light mode */
+}
 .light-mode .footer-section h3 {
   color: #ff5822;
 }
@@ -875,6 +877,16 @@ body.light-mode ::selection {
   .certification-item p {
     font-size: 0.9rem;
   }
+}
+.tech-stack {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-stack li {
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
 }
 
 
