@@ -878,14 +878,26 @@ body.light-mode ::selection {
     font-size: 0.9rem;
   }
 }
+
+/*for tech stack*/
 .tech-stack {
   list-style: none;
   padding: 0;
 }
 
 .tech-stack li {
-  font-size: 1rem;
+  font-size: 1rem; /* Default size */
   margin: 5px 0;
+  font-weight: normal; /* Ensures it's not bold by default */
 }
+
+/* Adjust size for smaller screens */
+@media (max-width: 768px) {
+  .tech-stack li {
+    font-size: 0.9rem; /* Slightly smaller font */
+    font-weight: normal; /* Prevents bold text */
+  }
+}
+
 
 
