@@ -178,7 +178,15 @@ function App() {
                             <p>
                                 <strong>Problem Statement:</strong> Designed an interactive dashboard to analyze sales trends and automate reporting.
                             </p>
-                            <p><strong>Technologies Used:</strong> Excel, Python (Pandas, Plotly), SQL</p>
+                            {/* Tech Stack Section */}
+                            <p><strong>Tech Stack:</strong></p>
+                            <ul className="tech-stack">
+                                <li>🟢 <strong>Frontend:</strong> Streamlit, Plotly</li>
+                                <li>🔵 <strong>Backend:</strong> Python</li>
+                                <li>🟠 <strong>Database:</strong> SQLite, CSV</li>
+                                <li>🟡 <strong>Data Science:</strong> Pandas, NumPy, Matplotlib</li>
+                                <li>🟣 <strong>Tools:</strong> VS Code, Jupyter Notebook, Streamlit Cloud</li>
+                            </ul>
                             <p><strong>Key Features:</strong></p>
                             <ul>
                                 <li>Interactive charts and graphs for data visualization</li>
@@ -194,7 +202,14 @@ function App() {
                             <p>
                                 <strong>Problem Statement:</strong> Developed a Library Management System to streamline book management, borrowing, and return processes.
                                 </p>
-                                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>
+                                {/* Tech Stack Section */}
+                                <p><strong>Tech Stack:</strong></p>
+                                <ul className="tech-stack">
+                                    <li>🟢 <strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                                    <li>🔵 <strong>Backend:</strong> PHP</li>
+                                    <li>🟠 <strong>Database:</strong> MySQL</li>
+                                    <li>🟣 <strong>Tools:</strong> VS Code, XAMPP(Apache Server)</li>
+                                </ul>
                                 <p><strong>Key Features:</strong></p>
                                 <ul>
                                     <li>User authentication and role-based access control</li>
@@ -209,7 +224,15 @@ function App() {
                             <p>
                                 <strong>Problem Statement:</strong> Built an interactive web dashboard to analyze YouTube video trends and engagement metrics.
                             </p>
-                            <p><strong>Technologies Used:</strong> Python (Pandas, Matplotlib, Plotly), Streamlit, YouTube API</p>
+                            {/* Tech Stack Section */}
+                            <p><strong>Tech Stack:</strong></p>
+                            <ul className="tech-stack">
+                                <li>🟢 <strong>Frontend:</strong> Streamlit, Plotly, Matplotlib, Seaborn</li>
+                                <li>🔵 <strong>Backend:</strong> Python, Youtube API</li>
+                                <li>🟠 <strong>Database:</strong> CSV Files</li>
+                                <li>🟡 <strong>Data Science:</strong> Pandas, TextBlob (Sentiment Analysis), WordCloud</li>
+                                <li>🟣 <strong>Tools:</strong> VS Code, Jupyter Notebook, Streamlit Cloud</li>
+                            </ul>
                             <p><strong>Key Features:</strong></p>
                             <ul>
                                 <li>Trending & Engagement Analysis – Tracks views, likes, comments, and engagement rates</li>
@@ -230,7 +253,22 @@ function App() {
                             <p>
                                 <strong>Problem Statement:</strong> Collaborated with a team to create a solution for Heritage & Culture using modern web technologies.
                             </p> 
-                            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, PHP, MySQL</p>    
+                            {/* Tech Stack Section */}
+                            <p><strong>Tech Stack:</strong></p>
+                            <ul className="tech-stack">
+                                <li>🟢 <strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                                <li>🔵 <strong>Backend:</strong> PHP</li>
+                                <li>🟠 <strong>Database:</strong> MySQL</li>
+                                <li>🟣 <strong>Tools:</strong> VS Code, XAMPP(Apache Server)</li>
+                            </ul>
+                            <p><strong>Key Features:</strong></p>
+                            <ul>
+                                <li>Explore India's cultural diversity and heritage</li>
+                                <li>State-wise cultural insights and historical site details</li>
+                                <li>AI-powered assistance for cultural inquiries</li>
+                                <li>Collaborative efforts for heritage preservation</li>
+                                <li>Curated travel tips for cultural destinations</li>
+                            </ul>    
                         </div>
                     </a>
                     </div>
@@ -307,7 +345,7 @@ function App() {
                             <i className="fab fa-linkedin"></i>
                             </a>
                             <a href="https://x.com/kumardarun11" target="_blank" rel="noreferrer">
-                            <i className="fab fa-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                             </a>
                         </div>
                     </div>
