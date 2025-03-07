@@ -588,7 +588,10 @@ body.light-mode .hero-link:hover {
 }
 
 .light-mode i{
-  color: #ff5822; /* Bright orange for skill icons */
+  color: #ff5822; /* Bright orange for all icons in light mode*/
+}
+.light-mode i:hover{
+  color: #2c3e50; /* hover for all icons in light mode */
 }
 
 /* Projects Section */
@@ -641,14 +644,6 @@ body.light-mode .section a[href="mailto:kumardarun11@gmail.com"]:hover {
 
 .light-mode .footer-section h3 {
   color: #ff5822;
-}
-
-.light-mode .footer .social-icons a {
-  color: #ff5822;
-}
-
-.light-mode .footer .social-icons a:hover {
-  color: #2c3e50;
 }
 
 .light-mode .footer-bottom {
