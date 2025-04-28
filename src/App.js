@@ -272,6 +272,36 @@ function App() {
                         </div>
                     </a>
                     </div>
+                    <div className="project-grid">
+                        <a href="" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="project-card">
+                            <h3>Technothon 2025 - Smart Strike (IoT-based Smart Cricket Bat)</h3>
+                            <p>
+                                <strong>Project Overview:</strong> Developed an innovative IoT solution, <strong>Smart Strike</strong>, aimed at revolutionizing sports analytics with a special focus on cricket performance tracking.
+                            </p>
+                            {/* Tech Stack Section */}
+                            <p><strong>Tech Stack:</strong></p>
+                            <ul className="tech-stack">
+                                <li>🟢 <strong>Hardware:</strong> ESP32 Microcontroller, MPU6050, HMC5883L, LDR, KY-038 </li>
+                                <li>🔵 <strong>Software:</strong> Arduino IDE</li>
+                                <li>🟠 <strong>Dashboard:</strong> HTML, CSS, JS</li>
+                                <li>🟣 <strong>Communication:</strong> Wi-Fi (IoT Protocols)</li>
+                                <li>🟡 <strong>Tools:</strong> VS Code, Arduino IDE</li>
+                            </ul>
+                            <p><strong>Key Features:</strong></p>
+                            <ul>
+                                <li>Real-time tracking of bat speed, swing dynamics, impact force, and strike angle</li>
+                                <li>Wireless data transmission and live visualization on an interactive dashboard</li>
+                                <li>Actionable insights for players and coaches to optimize performance</li>
+                                <li>Seamless integration of sensors without impacting bat ergonomics</li>
+                                <li>Won the <strong>Best Innovative Idea Award</strong> at <strong>Technothon, Techno India University</strong></li>
+                            </ul>
+                            <p>
+                                This project reflects our passion for technology and sports, highlighting how IoT can push the boundaries of athletic performance through continuous innovation and teamwork.
+                            </p>
+                        </div>
+                        </a>
+                    </div>
                 </section>
 
                 <section id="internship" className="section">
