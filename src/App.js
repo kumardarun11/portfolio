@@ -275,7 +275,7 @@ function App() {
                     <div className="project-grid">
                         <a href="" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-card">
-                            <h3>Technothon - Smart Strike (IoT-based Smart Cricket Bat)</h3>
+                            <h3>Technothon 2025 - Smart Strike (IoT-based Smart Cricket Bat)</h3>
                             <p>
                                 <strong>Project Overview:</strong> Developed an innovative IoT solution, <strong>Smart Strike</strong>, aimed at revolutionizing sports analytics with a special focus on cricket performance tracking.
                             </p>
