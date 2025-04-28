@@ -282,7 +282,7 @@ function App() {
                             {/* Tech Stack Section */}
                             <p><strong>Tech Stack:</strong></p>
                             <ul className="tech-stack">
-                                <li>🟢 <strong>Hardware:</strong> ESP32 Microcontroller, MPU6050, HMC5883L, LDR, KY-038 </li>
+                                <li>🟢 <strong>Hardware:</strong> Microcontroller: ESP32, Sensors: MPU6050, HMC5883L, LDR, KY-038 </li>
                                 <li>🔵 <strong>Software:</strong> Arduino IDE</li>
                                 <li>🟠 <strong>Dashboard:</strong> HTML, CSS, JS</li>
                                 <li>🟣 <strong>Communication:</strong> Wi-Fi (IoT Protocols)</li>
