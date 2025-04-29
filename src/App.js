@@ -341,6 +341,14 @@ function App() {
                             <h3>HackerRank – SQL (Intermediate)</h3>
                             <p>Hands-on experience with SQL queries, database management, and optimization.</p>
                         </div>
+                        <div className="certification-item">
+                            <h3>HackerRank – JavaScript (Intermediate)</h3>
+                            <p>Validated intermediate-level skills in JavaScript, including ES6+, functions, and DOM manipulation.</p>
+                        </div>
+                        <div className="certification-item">
+                            <h3>HackerRank – Software Engineer Intern Certificate</h3>
+                            <p>Recognition for technical assessment performance aligned with software engineering internship standards.</p>
+                        </div>
                     </div>
                 </section>
 
