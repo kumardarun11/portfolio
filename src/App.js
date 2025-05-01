@@ -220,7 +220,7 @@ function App() {
                         </a>
                         <a href="https://github.com/kumardarun11/dkyttrendsentimentanalysis" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-card">
-                            <h3>YouTube Trending Video Analysis with Dashboard</h3>
+                            <h3>YouTube Trending Video Analysis with Dashboard <a href="https://kd11yttrendsentimentanalysis.streamlit.app/" style={{ textDecoration: 'none', color: 'inherit' }}>(Live Demo)</a></h3>
                             <p>
                                 <strong>Problem Statement:</strong> Built an interactive web dashboard to analyze YouTube video trends and engagement metrics.
                             </p>
@@ -238,6 +238,32 @@ function App() {
                                 <li>Trending & Engagement Analysis – Tracks views, likes, comments, and engagement rates</li>
                                 <li>Sentiment & Visualization – Analyzes comment sentiment using NLP</li>
                                 <li>Real-time Search & Reporting – Enables keyword-based video search and CSV export</li>
+                            </ul>
+                        </div>
+                        </a>
+                        <a href="https://github.com/kumardarun11/drug_recommendation_system" style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="project-card">
+                            <h3>💊 Drug Analysis & Recommendation System 🚀 <a href="https://drugrecommendationsystem11.streamlit.app/" style={{ textDecoration: 'none', color: 'inherit' }}>(Live Demo)</a></h3>
+                            <p>
+                                <strong>Problem Statement:</strong> Built an advanced AI-powered medical dashboard using Streamlit and Machine Learning to offer intelligent drug recommendations, real-time sentiment analysis from patient reviews, and interactive data visualizations to support patients and healthcare professionals.
+                            </p>
+                            {/* Tech Stack Section */}
+                            <p><strong>Tech Stack:</strong></p>
+                            <ul className="tech-stack">
+                                <li>🟢 <strong>Frontend:</strong> Streamlit (Dark Neon UI with Glassmorphism)</li>
+                                <li>🔵 <strong>Backend:</strong> Python, Pandas, BeautifulSoup</li>
+                                <li>🟡 <strong>AI/NLP:</strong> Scikit-learn, TextBlob</li>
+                                <li>🟠 <strong>Visualization:</strong> Plotly, Power BI</li>
+                                <li>🟣 <strong>Tools:</strong> VS Code, Session State, Web Scraping</li>
+                            </ul>
+                            <p><strong>Key Features:</strong></p>
+                            <ul>
+                                <li>Personalized drug recommendations using ML models</li>
+                                <li>Real-time sentiment analysis from user reviews</li>
+                                <li>Interactive dashboards using Plotly & Power BI</li>
+                                <li>Time series forecasting for drug ratings and trends</li>
+                                <li>AI-powered medical chatbot for user queries</li>
+                                <li>Daily health tips and curated medical resource links</li>
                             </ul>
                         </div>
                         </a>

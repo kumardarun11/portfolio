@@ -20,8 +20,8 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/kumardarun11/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/kumardarun11/portfolio.git
+   cd portfolio
    ```
 2. Install dependencies:
    ```sh
@@ -66,7 +66,7 @@ Removes the single build dependency from your project (not reversible).
 ## Project Structure
 
 ```sh
-📂 your-portfolio
+📂 portfolio
 ├── 📂 public        # Static assets
 ├── 📂 src           # Source code
 │   ├── 📜 App.js    # Main React component
