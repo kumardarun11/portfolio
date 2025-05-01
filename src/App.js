@@ -243,7 +243,7 @@ function App() {
                         </a>
                         <a href="https://github.com/kumardarun11/drug_recommendation_system" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-card">
-                            <h3>💊 Drug Analysis & Recommendation System 🚀 <a href="https://drugrecommendationsystem11.streamlit.app/" style={{ textDecoration: 'none', color: 'inherit' }}>(Live Demo)</a></h3>
+                            <h3>Drug Analysis & Recommendation System <a href="https://drugrecommendationsystem11.streamlit.app/" style={{ textDecoration: 'none', color: 'inherit' }}>(Live Demo)</a></h3>
                             <p>
                                 <strong>Problem Statement:</strong> Built an advanced AI-powered medical dashboard using Streamlit and Machine Learning to offer intelligent drug recommendations, real-time sentiment analysis from patient reviews, and interactive data visualizations to support patients and healthcare professionals.
                             </p>
@@ -275,7 +275,7 @@ function App() {
                     <div className="project-grid">
                     <a href="https://github.com/kumardarun11/hamara-desh-bharat" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="project-card">
-                            <h3>Smart India Hackathon 2024</h3>
+                            <h3>Smart India Hackathon 2024 <a href="https://kumardarun11.github.io/hamara-desh-bharat/" style={{ textDecoration: 'none', color: 'inherit' }}>(Live Demo)</a></h3>
                             <p>
                                 <strong>Problem Statement:</strong> Collaborated with a team to create a solution for Heritage & Culture using modern web technologies.
                             </p> 
